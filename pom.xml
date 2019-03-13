@@ -44,7 +44,7 @@
 		<skipNode>true</skipNode>
 		<test.scheme>https</test.scheme>
 		<!-- <test.domain>${apigee.org}-${apigee.env}.apigee.net/book${deployment.suffix}/v1</test.domain> -->
-		<test.domain>${apigee.org}-${apigee.env}.apigee.net/v0</test.domain>
+		<test.domain>${apigee.org}-${apigee.env}.apigee.net/v0${deployment.suffix}</test.domain>
 	</properties>
 	<profiles>
 		<profile>
