@@ -21,7 +21,7 @@
     </PostFlow>
     <Flows/>
     <HTTPProxyConnection>
-        <BasePath>/v0/hello</BasePath>
+        <BasePath>/v0/hello${deployment.suffix}</BasePath>
         <Properties/>
         <VirtualHost>default</VirtualHost>
         <VirtualHost>secure</VirtualHost>
