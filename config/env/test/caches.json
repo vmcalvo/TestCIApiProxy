@@ -1,0 +1,5 @@
+[
+    {
+        "name": "testciapiproxy${deployment.suffix}-v1-response-cache"   
+    }
+]
